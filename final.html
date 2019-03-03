@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> About Us </title>
+		<link href="animate.css" rel='stylesheet'>
+			<link href='https://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet'>
+				<link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+					<link href='https://fonts.googleapis.com/css?family=Metrophobic' rel='stylesheet'>
+						<link href='https://fonts.googleapis.com/css?family=TitilliumWeb' rel='stylesheet'>
+							<meta name="viewport" content="width=device-width, initial-scale=1.0">
+								<!--CSS-->
+								<style>
+
+body {
+
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 91%;
+  width: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  display: none;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.9s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#main {
+  transition: margin-left .9s;
+  padding: 0.1px;
+}
+
+body, html {
+
+  height: 100%;
+  font: 25px/2.0 "Lato", Sans-serif;
+  color: #777;
+  margin: 0 0 0 0 ;
+}
+
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+height:100%;
+background-image: url('accenture.png');
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% auto;
+}
+
+.bgimg-3 {
+  background-image: url("bg2.jpeg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+.bg1{
+  background-image:url("d3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bg2{
+  background-image:url("image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #115;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+
+.button {
+  position: fixed;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1{
+  position:relative ;
+  bottom:2px;
+  left: 1100px;
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.default{
+  color:#cce6ff;
+}
+
+footer{
+background: linear-gradient(245deg, #1affff,#ff1a1a,#1ad1ff);
+background-size: 600% 600%;
+min-height: 320px; padding: 2% 5% 1%; position: relative; }
+footer dl{ float: right; font-size: 0; }
+footer dl dt{ display: inline-block; margin-right: 30px; }
+footer dl dt.twitter a{ background-position: 0 0; }
+footer dl dt.instagram a{ background-position: -30px 0; }
+footer dl dt.medium a{ background-position: 0 -93px; }
+footer dl dt.facebook a{ background-position: -60px 0; }
+footer dl dt.linkedin a{ background-position: -90px 0; }
+
+</style>
+							</head>
+							<!-- BODY -->
+							<body>
+								<div id="mySidenav" class="sidenav">
+									<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+									<a href="#">Clients</a>
+									<a href="#">Services</a>
+									<a href="#">About Us</a>
+									<a href="#">Contact Us</a>
+								</div>
+								<div class="bgimg-1">
+									<div id="main">
+										<span style="cursor:pointer" onclick="openNav()">&#9776; </span>
+									</div>
+									<div class="animated bounce infinite" style="position: absolute;
+  left: 46vw;
+bottom: 10px;
+margin-left:auto;
+margin-right:auto;">
+										<a href="#bg2">
+											<img src="https://img.icons8.com/color/96/000000/circled-chevron-down.png" alt="icon">
+											</a>
+										</div>
+									</div>
+									<div id="bg2" class="bg2" style="position:relative;">
+										<div style=" font-family: 'Hel';color:white;text-align:center;padding:80px 80px;text-align: justify;">
+											<h2 style="font-family: 'Philosopher';text-align:center;">About Accenture</h2>
+											<p>
+												<br>
+Accenture is a global management consulting and professional services firm that provides strategy,digital,technology and operations services.
+A Fortune Global 500 company,it has been incorporated in Dublin, Ireland, since 1 September 2009. In 2018, the company reported net revenues of $39.6 billion, with more than 459,000 employees serving clients in more than 200 cities in 120 countries. In 2015, the company had about 150,000 employees in India, about 48,000 in the US, and about 50,000 in the Philippines. Accenture's current clients include 95 of the Fortune Global 100 and more than three-quarters of the Fortune Global 500.
+													<br>
+Accenture began as the business and technology consulting division of accounting firm Arthur Andersen in the early 1950s when it conducted a feasibility study for General Electric to install a computer at Appliance Park in Louisville, Kentucky, which led to GE's installation of a UNIVAC I computer and printer, believed to be the first commercial use of a computer in the U.S. Joseph Glickauf, an early pioneer of computer consulting, held a position as head of Arthur Andersen's administrative services division.
+
+													</p>
+												</div>
+											</div>
+											<section>
+												<div class="bg1" style="position:relative;">
+													<h2 style="font-family: 'Philosopher';text-align:center;color:#705;margin:0 0 0 0;">AWARDS</h2>
+													<div style="font-family: 'Charm';font-weight:200;color:#000000;text-align:center;padding:90px 90px;text-align: justify;">
+														<ul style="list-style-type:square">
+															<li>In 2016, Accenture was ranked No. 289 on the Forbes Global 2000 list.</li>
+															<li>In 2016, the firm was named 15th in the Top 50 Companies for Diversity by DiversityInc.</li>
+															<li>In 2017, Accenture was ranked No. 272 on the Forbes Global 2000 list.</li>
+															<li>In 2017, Accenture was ranked No. 305 on the Fortune Global 500 list.</li>
+															<li>In 2017, the firm was named 14th in the Top 50 Companies for Diversity by DiversityInc.</li>
+															<li>Accenture is one of 12 best management consulting firms of 2017 in America according to Forbes.</li>
+															<li>In 2018, Fortune magazine named it as the world's most admired Information Technology Services company.</li>
+															<li>In 2018, the Ethisphere Institute named Accenture one of the world's most ethical companies for the 11th time.</li>
+															<li>Fortune named Accenture one of the 100 Best Companies to Work For from 2009 to 2018.</li>
+														</ul>
+													</div>
+												</div>
+											</section>
+											<div class="bgimg-3">
+												<div class="caption"></div>
+											</div>
+											<section>
+												<div style="font-family: 'Metrophobic';background-color:#e0e0eb;color: #705;text-align:center;padding:80px 80px;text-align: justify;">
+													<h1 style="font-family: 'Metrophobic';text-align:center;">
+														<b>Join Us</b>
+													</h1>
+													<h2 style="text-align:center;color:#52527a">
+														<q>Let's Make World A Better Place</q>
+													</h2>
+													<p>
+Work where you are inspired to explore your passions, where your talents are nurtured and cultivated.Innovate with leading-edge technologies on some of the coolest projects you can imagine.And get the tools you need to keep learning and growing so you stay continually ahead of the game while making a difference in the world.Want to take your Salesforce career to the next level? We're hiring for these and many other positions.From free spirits,risk takers and excitement seekers. To idea generators, IT innovators and digital disruptors. We look for passionate, curious, creative and solution-driven team players who thrive under pressure and are inspired to push boundaries.
+</p>
+													<button class="button button1">Apply Now</button>
+												</div>
+											</section>
+											<section>
+												<div style="font-family: 'Metrophobic';background-color:#cce6ff;color: #705;text-align:center;padding:80px 80px;text-align: justify;">
+													<h1 style="font-family: 'Philosopher';text-align:center;">Our Partners </h1>
+													<img width="170" height="76" src="http://bearmood.lv/wp-content/uploads/2015/12/RESO.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="icon" />
+													<img width="170" height="76" src="http://bearmood.lv/wp-content/uploads/2017/01/Yappiu.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="icon" />
+													<img width="200" height="76" src="http://bearmood.lv/wp-content/uploads/2018/02/TIeto-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="icon">
+														<img width="170" height="76" src="http://bearmood.lv/wp-content/uploads/2017/01/Maffam.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="icon" />
+														<img width="170" height="76" src="http://bearmood.lv/wp-content/uploads/2015/12/AFsport-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="icon" />
+														<img width="170" height="76" src="http://bearmood.lv/wp-content/uploads/2015/12/orecle-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="icon" />
+														<img width="170" height="76" src="http://bearmood.lv/wp-content/uploads/2015/12/Black-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="icon" />
+														<br>
+														</div>
+													</section>
+													<footer>
+														<dl>
+															<dt class="twitter">
+																<img src="https://img.icons8.com/ios/50/000000/twitter-filled.png" alt="icon">Twitter
+																</dt>
+																<dd></dd>
+																<dt class="instagram">
+																	<img src="https://img.icons8.com/ios/50/000000/instagram-new-filled.png" alt="icon">Instagram
+
+																	</dt>
+																	<dd></dd>
+																	<dt class="medium">
+																		<img src="https://img.icons8.com/ios/50/000000/medium-monogram-filled.png" alt="icon">Medium
+																		</dt>
+																		<dd></dd>
+																		<dt class="facebook">
+																			<img src="https://img.icons8.com/ios/50/000000/facebook-filled.png" alt="icon">Facebook
+																			</dt>
+																			<dd></dd>
+																			<dt class="linkedin">
+																				<img src="https://img.icons8.com/ios/50/000000/linkedin-filled.png" alt="icon">Linkedin
+																				</dt>
+																				<dd></dd>
+																			</dl>
+																			<a class="default">
+																				<br/> info.accenture@gmail.com
+
+																				<br/> Kalyani Magnum, 165/2, DS Palya,
+
+																				<br/> JP Nagar 7th Phase, Bannerghatta Road,
+
+																				<br/> Bengaluru, Karnataka 560076
+
+																				<br/> 9993626705
+
+																			</a>
+																		</footer>
+																		<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.getElementById("mySidenav").style.display = "block";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.getElementById("mySidenav").style.display = "none";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+																	</body>
+																</html>
