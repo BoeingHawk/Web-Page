@@ -9,4 +9,4 @@ In this there is a scrolling effect used in the background known as "PARALLAX EF
 
 Also Used a bit of JavaScript in making the side bar functional.
 
-#As per now this page is not a responsive page as bootstarp or Foundation framework is not used in this.#
+#As of now this page is not a responsive page as bootstarp or Foundation framework is not used in this.#
